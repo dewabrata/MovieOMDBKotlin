@@ -48,21 +48,16 @@ dependencies {
     implementation 'com.squareup.retrofit2:retrofit:2.9.0'
     implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
     implementation("com.squareup.okhttp3:logging-interceptor:4.9.3")
-
 }
-
 //robo pojo extentions
 dependencies {
     implementation 'org.glassfish:javax.annotation:10.0-b28'
-
 }
-
 //https://github.com/bumptech/glide
 dependencies {
     implementation 'com.github.bumptech.glide:glide:4.13.0'
     annotationProcessor 'com.github.bumptech.glide:compiler:4.13.0'
 }
-
 //roomdb
 apply plugin : 'kotlin-kapt'
 

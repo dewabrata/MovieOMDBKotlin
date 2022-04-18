@@ -5,9 +5,10 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.adl.movieomdb.R
 import com.adl.movieomdb.model.OMDBResponse
+import com.adl.movieomdb.model.SearchItem
 
 
-class OMDBAdapter(val data:ArrayList<OMDBResponse>):RecyclerView.Adapter<OMDBViewHolder>() {
+class OMDBAdapter(val data: ArrayList<SearchItem?>):RecyclerView.Adapter<OMDBViewHolder>() {
     lateinit var parent:ViewGroup
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): OMDBViewHolder {
         this.parent = parent
